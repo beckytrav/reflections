@@ -1,18 +1,39 @@
 What happens when you initialize a repository? Why do you need to do it?
 
+  Creates a repository that can be added to and commits can be amended - need to do this to keep a log of what has been done to the project.
+
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+
+  Staging area is where you add changes to the repository before committing them.
+  It is an intermediate area where you can add all files together and then do a git commit to add the files to a single repository.
+  This offers value as you get a visual of all the files you want to add and commit them together.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+  Add all files to the staging area and then make a full commit that makes sense as a whole so that all work makes sense and so that it is not missing anything.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+  When working on a large project - keep track of small changes
+  When working within a large team - multiple changes can be made and added to a repository.
+  Many people can work on one project and then combine the finished project without interfering with the original code while someone else is working on it.
+
 How do the diagrams help you visualize the branch structure?
+
+  So we can see the work flow and what work will be added when we commit to the original branch.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+  You may get various representations of the code you are trying to add.
+  You may have conflicting code, into which you would have to change.
+  We represent it in diagrams to see exactly how the branches would be merged and what code would be added when we do merge them.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+  Pros - Can add at certain points, add where code makes sense, add when a specific change has been made, if automatically saved then it may save where code doesn't make sense.
+  Cons - May forget to add, may forget to merge completed work, may merge when the code hasnt been completed prpoperly.
