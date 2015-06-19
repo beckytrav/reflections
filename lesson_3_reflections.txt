@@ -16,3 +16,10 @@ Describe the differences between forks, clones, and branches. When would you use
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
   So that all files are upto date and you are always working on the most recent code
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+  We would use the likes of Dropbox or Google Docs
+  Could have multiple copies - wouldn't be able to know the main one
+  Could get a lot more confusing
+  Wouldn't be able to see what has been changed straight away
