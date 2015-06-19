@@ -6,3 +6,9 @@ Why might you want to always pull changes manually rather than having Git automa
 
   Commits mat be added at intervals, if automatically done, the work may not be pulled at the correct point.
   May pull something that isn't fully completed
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+  Clone is where you directly copy across work from someone elses.
+  Fork is where you can work on someone else,s work and add your own changes.
+  Branch is where you can work on code separately to the master and add your own changes and then merge it back into master.
